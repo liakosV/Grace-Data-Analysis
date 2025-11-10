@@ -6,7 +6,7 @@ Model-Data-Correlation-Calculator is a Python-based utility that processes two d
 The project can be run directly as a Python script or as a stand-alone Windows .exe (built with PyInstaller).
 
 ## About
-This project was originally developed for my brother, an Environmental Engineering student, to assist with analyzing GRACE satellite data and comparing it with real-world measurements.
+This project was originally developed for my brother, an Environmental Engineering student, to assist with analyzing GRACE satellite data, created with Google Earth Engine, and comparing it with real-world measurements.
 
 ## Features
 * Reads one fixed Excel dataset (RealData.xlsx) and one user-selected CSV file
