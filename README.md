@@ -1,8 +1,7 @@
-# Grace Data Analysis
+# Model-Data-Correlation-Calculator
 
 ## Overview
-Grace Data Analysis is a Python-based utility that processes two datasets — one static Excel file (real data) and one variable CSV file (GRACE data) — to compute averages, anomalies, and correlation coefficients for each dataset group.
-It automatically exports the analysis results into a formatted Excel workbook with multiple sheets.
+Model-Data-Correlation-Calculator is a Python-based utility that processes two datasets — one static Excel file (real data) and one variable CSV file (model data) — to compute averages, anomalies, and Pearson correlation coefficients for each dataset group. It automatically exports the analysis results into a formatted Excel workbook with multiple sheets.
 
 The project can be run directly as a Python script or as a stand-alone Windows .exe (built with PyInstaller).
 
@@ -32,7 +31,7 @@ This project was originally developed for my brother, an Environmental Engineeri
 
    * Correlations sheet
 
-* Dynamically names the output file (e.g., analysis_results_6ML.xlsx)
+* Dynamically names the output file
 
 ## Requirements
 If you're running the Python script (not the `.exe`), install:
@@ -43,8 +42,8 @@ pip install pandas xlsxwriter openpyxl
 ## Usage (Python script)
 1. Clone the repository:
    ```
-   git clone https://github.com/liakosV/Grace-Data-Analysis.git
-   cd GraceDataAnalysis
+   git clone https://github.com/liakosV/Model-Data-Correlation-Calculator.git
+   cd ModelDataCorrelationCalculator
    ```
 2. Run the script:
    ```
